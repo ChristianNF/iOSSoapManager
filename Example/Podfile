@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'iOSSoapManager_Example' do
+  pod 'iOSSoapManager', :path => '../'
+
+  target 'iOSSoapManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
