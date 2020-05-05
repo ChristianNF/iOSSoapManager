@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'iOSSoapManager'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'iOSSoapManager is a very easy to handle library to manage soap messages and soap request.'
 
 # This description is used to generate tags and improve search results.
