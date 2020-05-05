@@ -149,7 +149,7 @@ public class SoapMessage{
     /// - Parameters:
     ///   - headerName:     `String` with the HTTP Header entity name.
     ///   - value:          `String` with the header value.
-    func addHTTPHeader(withName headerName:String, withValue value:String){
+    public func addHTTPHeader(withName headerName:String, withValue value:String){
         httpHeaders[headerName] = value
     }
     
@@ -158,7 +158,7 @@ public class SoapMessage{
     ///
     /// - Returns:
     ///   - namespace:          `String` with this `SoapMessage` namespace.
-    func getNamespace() -> String {
+    public func getNamespace() -> String {
         return self.namespace
     }
     
@@ -179,7 +179,7 @@ public class SoapMessage{
     ///   - parameterName:          `String` with the name of the parameter.
     ///   - attributes:             `String?`with the litteral attributes to set into this particular parameter.
     ///   - value:                  `String` with the value for this parameter.
-    func addParameterToSoapMethod(
+    public func addParameterToSoapMethod(
         withParameterName parameterName:String,
         withAttributes attributes:String?,
         withValue value:String){

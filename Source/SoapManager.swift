@@ -27,7 +27,7 @@
 import Foundation
 
 /// Reference to `SBSession.default`
-let SB = SMSession.default
+public let SB = SMSession.default
 
 /// Current SoapBuilder version.
 let version = "1.0.0"
