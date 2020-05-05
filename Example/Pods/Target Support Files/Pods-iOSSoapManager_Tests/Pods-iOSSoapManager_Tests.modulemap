@@ -1,0 +1,6 @@
+framework module Pods_iOSSoapManager_Tests {
+  umbrella header "Pods-iOSSoapManager_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

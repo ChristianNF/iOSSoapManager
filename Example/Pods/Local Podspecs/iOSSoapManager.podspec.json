@@ -1,0 +1,22 @@
+{
+  "name": "iOSSoapManager",
+  "version": "0.1.0",
+  "summary": "A short description of iOSSoapManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ChristianNF/iOSSoapManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ChristianNF": "christiannogueraalc@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ChristianNF/iOSSoapManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "iOSSoapManager/Classes/**/*"
+}

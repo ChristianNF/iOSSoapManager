@@ -1,0 +1,16 @@
+PODS:
+  - iOSSoapManager (0.1.0)
+
+DEPENDENCIES:
+  - iOSSoapManager (from `../`)
+
+EXTERNAL SOURCES:
+  iOSSoapManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iOSSoapManager: 30bc3f6923343c503b5347d2837b9cb582ebc2b8
+
+PODFILE CHECKSUM: e2e9d39cffbfa29e92063a7fad6ef936ee8b7b4d
+
+COCOAPODS: 1.9.1

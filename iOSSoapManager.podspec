@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'iOSSoapManager'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of iOSSoapManager.'
+  s.summary          = 'iOSSoapManager is a very easy to handle library to manage soap messages and request.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  You will be able to cutomize the entire soap message, even the elements and it´s attributes or prefixes.
+  iOSSoapManager allows you also to make a request to the soap server with your already customized soap message.
                        DESC
 
   s.homepage         = 'https://github.com/ChristianNF/iOSSoapManager'
